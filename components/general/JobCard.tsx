@@ -26,6 +26,7 @@ interface iAppProps {
   };
 }
 
+
 export function JobCard({ job }: iAppProps) {
   return (
     <Link href={`/job/${job.id}`}>
