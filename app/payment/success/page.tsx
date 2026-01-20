@@ -15,7 +15,7 @@ export default function PaymentSucess() {
           <div className="mt-3 text-center sm:mt-5 w-full">
             <h2 className="text-xl font-semibold">Payment Successfull</h2>
             <p className="text-sm mt-2 text-muted-foreground tracking-tight">
-              Congrasts your payment was successful. Your Job Posting is now
+              Congrats your payment was successful. Your Job Posting is now
               active.
             </p>
 
