@@ -16,7 +16,7 @@ const CancelledPage = () => {
           <div className="mt-3 text-center sm:mt-5 w-full">
             <h2 className="text-xl font-semibold">Payment Cancelled</h2>
             <p className="text-sm mt-2 text-muted-foreground tracking-tight">
-              No worries, you wont be chaged. Please try again.
+              No worries, you wont be charged. Please try again.
             </p>
 
             <Button asChild className="w-full mt-5">

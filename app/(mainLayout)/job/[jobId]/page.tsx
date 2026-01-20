@@ -187,7 +187,7 @@ const JobIdPage = async ({ params }: { params: Params }) => {
                 </div>
                 <p className="text-sm text-muted-foreground mt-1">
                   Please let {jobData.company.name} know you found this job on
-                  JobPortal. This helps us grow!
+                  this Portal. This helps us grow!
                 </p>
               </div>
               <form>
