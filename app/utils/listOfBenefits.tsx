@@ -29,7 +29,7 @@ interface Benefit {
 }
 
 export const benefits: Benefit[] = [
-  { id: "401k", label: "401(k)", icon: <Briefcase className="w-3 h-3" /> },
+  // { id: "401k", label: "401(k)", icon: <Briefcase className="w-3 h-3" /> },
   {
     id: "distributed",
     label: "Distributed team",
@@ -62,11 +62,7 @@ export const benefits: Benefit[] = [
     label: "4 day workweek",
     icon: <Calendar className="w-3 h-3" />,
   },
-  {
-    id: "401k_matching",
-    label: "401k matching",
-    icon: <Coins className="w-3 h-3" />,
-  },
+
   {
     id: "company_retreats",
     label: "Company retreats",
@@ -89,7 +85,7 @@ export const benefits: Benefit[] = [
   },
   {
     id: "mental_wellness",
-    label: "Mental wellness budget",
+    label: "Mental wellness",
     icon: <Brain className="w-3 h-3" />,
   },
   {
@@ -97,19 +93,11 @@ export const benefits: Benefit[] = [
     label: "Home office budget",
     icon: <Home className="w-3 h-3" />,
   },
-  {
-    id: "crypto",
-    label: "Pay in crypto",
-    icon: <Bitcoin className="w-3 h-3" />,
-  },
-  {
-    id: "pseudonymous",
-    label: "Pseudonymous",
-    icon: <UserCircle className="w-3 h-3" />,
-  },
+ 
+ 
   {
     id: "profit_sharing",
-    label: "Profit sharing",
+    label: "Work from home",
     icon: <PieChart className="w-3 h-3" />,
   },
   {
@@ -117,19 +105,10 @@ export const benefits: Benefit[] = [
     label: "Equity compensation",
     icon: <Coins className="w-3 h-3" />,
   },
-  {
-    id: "no_whiteboard",
-    label: "No whiteboard interview",
-    icon: <MonitorOff className="w-3 h-3" />,
-  },
-  {
-    id: "no_monitoring",
-    label: "No monitoring system",
-    icon: <Shield className="w-3 h-3" />,
-  },
+ 
   {
     id: "hire_old_young",
-    label: "We hire old (and young)",
+    label: "Young and Agile",
     icon: <UserPlus className="w-3 h-3" />,
   },
 ];
